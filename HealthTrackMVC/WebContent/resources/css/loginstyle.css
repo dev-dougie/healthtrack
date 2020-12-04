@@ -1,0 +1,95 @@
+body{
+    background-image: url(https://wallpaperaccess.com/full/804843.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-attachment: fixed;
+    display: -ms-flexbox;
+  	display: flex;
+  	-ms-flex-align: center;
+  	align-items: center;
+ 	padding-top: 40px;
+  	padding-bottom: 40px;
+  	background-color: white;
+}
+
+.form-signin {
+  width: 100%;
+  max-width: 330px;
+  padding: 15px;
+  margin-top: 25px;
+}
+.form-signin .checkbox {
+  font-weight: 400;
+}
+.form-signin .form-control {
+  position: relative;
+  box-sizing: border-box;
+  height: auto;
+  padding: 10px;
+  font-size: 16px;
+  
+}
+.form-signin .form-control:focus {
+  z-index: 2;
+  border-color:#222;
+}
+
+.form-signin input {
+  margin-bottom: 10px;
+  border-radius: 10px;
+}
+
+#login{
+	visibility: hidden;
+}
+
+.form-signin button[type="submit"]{
+  border-radius: 50px;
+  border-top-left-radius: 20px;
+  border-top-right-radius: 20px;
+  border-bottom-left-radius: 20px ;
+  border-bottom-right-radius: 20px;
+}
+
+
+.btn-link{
+  color:blue;
+}
+
+.fieldset{
+	border:1px solid black;
+	border-radius: 20px;
+	top: 15px;
+	border: none;
+	min-width:25%;
+	transition: .5s;
+	margin:auto;
+	display:flex;
+	align-items:center;
+	justify-content:center;
+}
+
+.fieldset:hover{
+	box-shadow: 0 0 1em gray;
+}
+
+@media screen and (min-width :420px){
+	body{
+		background-color: #222;
+	}
+	
+	.fieldset{
+	border:1px solid black;
+	border-radius: 20px;
+	top: 15px;
+	border: none;
+	width:100%;
+	transition: .5s;
+	margin:auto;
+	display:flex;
+	align-items:center;
+	justify-content:center;
+	}
+}
+
+

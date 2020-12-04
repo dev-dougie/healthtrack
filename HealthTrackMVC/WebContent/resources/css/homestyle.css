@@ -1,0 +1,29 @@
+body{
+    background-color:#222;
+    background-image: url(https://wallpapercrafter.com/uploads/posts/88738-a-shirtless-man-exercising-and-doing-a-tricep-dip-in-dubai___dubai-workout.jpg);
+    background-repeat:no-repeat;
+    background-size: cover;
+    background-attachment: fixed;
+
+}
+
+
+.title-page{
+    font-family: Calibri;
+    color:whitesmoke;
+    text-align:center;
+    font-size: 190px;
+   -webkit-text-stroke-width: 1px;
+   -webkit-text-stroke-color: #000;
+  
+  }
+  
+  .slogan{
+    font-size: 80px;
+    color:DimGray;
+    font-family: Calibri;
+    -webkit-text-stroke-width: 2px;
+    -webkit-text-stroke-color: #000;
+    font-size: 3em; color: #fffdd9;
+    text-align: center;
+  }
